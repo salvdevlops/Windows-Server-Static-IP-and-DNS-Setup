@@ -2,11 +2,10 @@
 
 This lab continues from the previous project, where we set up a Windows Server domain controller. Here, we configure a static IP and DNS on the server, then prepare to join a Windows 11 client to the domain.
 
+
 ## Prerequisites
 
-- Windows Server 2022 domain controller already configured (see previous lab)
-- A Windows 11 client VM on the same virtual network
-- Administrator access to both machines
+- Windows Server 2025 domain controller already configured (see previous lab https://github.com/salvdevlops/Windows-Server-and-AD-DS-Setup-lab)
 
 ## Step 1: Find the Server's Current IP Address
 
@@ -32,7 +31,7 @@ Enter the IP address, subnet mask, and gateway found in Step 1. For the preferre
 
 Restart the server to make sure the new settings are applied.
 
-Once it's back up, open Command Prompt and run: 'ipconfig /all'
+Once it's back up, open Command Prompt and run: "ipconfig /all"
 
 This shows more detail than a plain `ipconfig` — including the DNS server, which confirms the settings were applied correctly.
 
@@ -40,4 +39,4 @@ This shows more detail than a plain `ipconfig` — including the DNS server, whi
 
 ---
 
-*Next: Creating OUs and Groups.*
+*Next Lab: Creating OUs and Groups https://github.com/salvdevlops/Creating-Ous-and-Groups-in-AD-lab.* 
