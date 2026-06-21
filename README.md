@@ -1,4 +1,4 @@
-# Joining a Windows 11 Client to an Active Directory Domain
+# Configuring a Static IP and DNS on a Windows Server Domain Controller
 
 This lab continues from the previous project, where we set up a Windows Server domain controller. Here, we configure a static IP and DNS on the server, 
 
